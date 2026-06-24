@@ -30,3 +30,15 @@ with open("auth_log.txt") as AuthBestand:
 #result = DatabaseCutsor.execute("SELECT * FROM AuthLogs")
 #print(result.fetchall())
 
+#counting accept results and reject results
+AuthAccepted =0
+AuthRejected = 0
+AuthResults = DatabaseCutsor.execute("SELECT Result FROM AuthLogs")
+#print(AuthResults.fetchall())
+for Authresult in AuthResults.fetchall():
+   if "result=ACCEPT" in Authresult:
+      AuthAccepted = AuthAccepted + 1
+
+   if "result=REJECT" in Authresult:
+      AuthRejected = AuthRejected + 1
+print("there are ", AuthAccepted, " acceptations and " ,AuthRejected, " rejections")
