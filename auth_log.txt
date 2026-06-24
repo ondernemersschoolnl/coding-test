@@ -1,0 +1,256 @@
+2025-06-02T07:01:26 host=switch-01 port=Gi1/0/01 mac=00:1A:2B:00:00:18 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T07:01:44 host=switch-03 port=Gi1/0/24 mac=00:1A:2B:00:00:12 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T07:01:52 host=switch-01 port=Gi1/0/07 mac=00:1A:2B:00:00:08 user=ljanssens vlan=- result=REJECT reason=bad-credentials
+2025-06-02T07:03:20 host=switch-03 port=Gi1/0/18 mac=00:1A:2B:00:00:0E user=asmith vlan=20 result=ACCEPT
+2025-06-02T07:03:25 host=switch-01 port=Gi1/0/23 mac=00:1A:2B:00:00:0E user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T07:04:13 host=switch-01 port=Gi1/0/03 mac=00:1A:2B:00:00:0D user=jdoe vlan=20 result=ACCEPT
+2025-06-02T07:05:35 host=switch-02 port=Gi1/0/02 mac=00:1A:2B:00:00:18 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T07:06:28 host=switch-01 port=Gi1/0/18 mac=00:1A:2B:00:00:0A user=tdewit vlan=30 result=ACCEPT
+2025-06-02T07:07:19 host=switch-03 port=Gi1/0/07 mac=00:1A:2B:00:00:17 user=jdoe vlan=10 result=ACCEPT
+2025-06-02T07:08:01 host=switch-01 port=Gi1/0/08 mac=00:1A:2B:00:00:04 user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T07:08:52 host=switch-01 port=Gi1/0/12 mac=00:1A:2B:00:00:0C user=asmith vlan=30 result=ACCEPT
+2025-06-02T07:10:19 host=switch-01 port=Gi1/0/20 mac=00:1A:2B:00:00:15 user=asmith vlan=30 result=ACCEPT
+2025-06-02T07:10:44 host=switch-02 port=Gi1/0/13 mac=00:1A:2B:00:00:09 user=guest vlan=30 result=ACCEPT
+2025-06-02T07:11:30 host=switch-01 port=Gi1/0/08 mac=00:1A:2B:00:00:02 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T07:11:43 host=switch-01 port=Gi1/0/19 mac=00:1A:2B:00:00:17 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T07:12:38 host=switch-03 port=Gi1/0/15 mac=00:1A:2B:00:00:05 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T07:13:54 host=switch-03 port=Gi1/0/09 mac=00:1A:2B:00:00:18 user=ljanssens vlan=20 result=ACCEPT
+2025-06-02T07:14:50 host=switch-02 port=Gi1/0/08 mac=00:1A:2B:00:00:05 user=ljanssens vlan=- result=REJECT reason=bad-credentials
+2025-06-02T07:15:09 host=switch-01 port=Gi1/0/21 mac=00:1A:2B:00:00:06 user=tdewit vlan=30 result=ACCEPT
+2025-06-02T07:15:22 host=switch-02 port=Gi1/0/13 mac=00:1A:2B:00:00:14 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T07:16:37 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:00:00:18 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T07:17:16 host=switch-03 port=Gi1/0/11 mac=00:1A:2B:00:00:04 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T07:17:21 host=switch-03 port=Gi1/0/24 mac=00:1A:2B:00:00:09 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T07:17:39 host=switch-03 port=Gi1/0/10 mac=00:1A:2B:00:00:15 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T07:18:31 host=switch-01 port=Gi1/0/18 mac=00:1A:2B:00:00:11 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T07:18:38 host=switch-01 port=Gi1/0/12 mac=00:1A:2B:00:00:0A user=asmith vlan=10 result=ACCEPT
+2025-06-02T07:19:55 host=switch-01 port=Gi1/0/03 mac=00:1A:2B:00:00:18 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T07:21:08 host=switch-01 port=Gi1/0/05 mac=00:1A:2B:00:00:16 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T07:22:20 host=switch-03 port=Gi1/0/14 mac=00:1A:2B:00:00:07 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T07:23:04 host=switch-02 port=Gi1/0/22 mac=00:1A:2B:00:00:15 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T07:24:06 host=switch-01 port=Gi1/0/08 mac=00:1A:2B:00:00:08 user=jdoe vlan=- result=REJECT reason=bad-credentials
+2025-06-02T07:25:26 host=switch-01 port=Gi1/0/01 mac=00:1A:2B:00:00:03 user=guest vlan=- result=REJECT reason=bad-credentials
+2025-06-02T07:25:35 host=switch-02 port=Gi1/0/03 mac=00:1A:2B:00:00:11 user=asmith vlan=20 result=ACCEPT
+2025-06-02T07:26:07 host=switch-03 port=Gi1/0/05 mac=00:1A:2B:00:00:18 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T07:27:12 host=switch-02 port=Gi1/0/07 mac=00:1A:2B:00:00:04 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T07:28:11 host=switch-02 port=Gi1/0/15 mac=00:1A:2B:00:00:18 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T07:29:38 host=switch-01 port=Gi1/0/02 mac=00:1A:2B:00:00:0D user=guest vlan=20 result=ACCEPT
+2025-06-02T07:29:56 host=switch-01 port=Gi1/0/07 mac=00:1A:2B:00:00:07 user=ljanssens vlan=20 result=ACCEPT
+2025-06-02T07:30:24 host=switch-02 port=Gi1/0/15 mac=00:1A:2B:00:00:08 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T07:31:39 host=switch-01 port=Gi1/0/02 mac=00:1A:2B:00:00:15 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T07:32:14 host=switch-01 port=Gi1/0/14 mac=00:1A:2B:00:00:10 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T07:32:26 host=switch-01 port=Gi1/0/13 mac=00:1A:2B:00:00:01 user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T07:33:29 host=switch-02 port=Gi1/0/14 mac=00:1A:2B:00:00:17 user=guest vlan=30 result=ACCEPT
+2025-06-02T07:34:36 host=switch-01 port=Gi1/0/07 mac=00:1A:2B:00:00:0A user=asmith vlan=10 result=ACCEPT
+2025-06-02T07:35:50 host=switch-01 port=Gi1/0/24 mac=00:1A:2B:00:00:0B user=jdoe vlan=10 result=ACCEPT
+2025-06-02T07:36:59 host=switch-03 port=Gi1/0/06 mac=00:1A:2B:00:00:02 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T07:37:12 host=switch-03 port=Gi1/0/03 mac=00:1A:2B:00:00:16 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T07:38:29 host=switch-01 port=Gi1/0/19 mac=00:1A:2B:00:00:14 user=jdoe vlan=- result=REJECT reason=expired-account
+2025-06-02T07:39:07 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:00:00:17 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T07:39:28 host=switch-03 port=Gi1/0/21 mac=00:1A:2B:00:00:0A user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T07:39:42 host=switch-01 port=Gi1/0/15 mac=00:1A:2B:00:00:14 user=ljanssens vlan=- result=REJECT reason=bad-credentials
+2025-06-02T07:40:51 host=switch-02 port=Gi1/0/05 mac=00:1A:2B:00:00:0C user=jdoe vlan=10 result=ACCEPT
+2025-06-02T07:41:16 host=switch-02 port=Gi1/0/18 mac=00:1A:2B:00:00:17 user=mvermeulen vlan=30 result=ACCEPT
+2025-06-02T07:42:44 host=switch-03 port=Gi1/0/01 mac=00:1A:2B:00:00:16 user=tdewit vlan=30 result=ACCEPT
+2025-06-02T07:44:13 host=switch-01 port=Gi1/0/05 mac=00:1A:2B:00:00:09 user=jdoe vlan=10 result=ACCEPT
+2025-06-02T07:44:37 host=switch-02 port=Gi1/0/10 mac=00:1A:2B:00:00:14 user=asmith vlan=30 result=ACCEPT
+2025-06-02T07:46:03 host=switch-02 port=Gi1/0/17 mac=00:1A:2B:00:00:10 user=mvermeulen vlan=- result=REJECT reason=expired-account
+2025-06-02T07:46:43 host=switch-01 port=Gi1/0/01 mac=00:1A:2B:00:00:0B user=tdewit vlan=10 result=ACCEPT
+2025-06-02T07:47:21 host=switch-01 port=Gi1/0/24 mac=00:1A:2B:00:00:0F user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T07:47:27 host=switch-01 port=Gi1/0/03 mac=00:1A:2B:00:00:17 user=asmith vlan=- result=REJECT reason=expired-account
+2025-06-02T07:48:46 host=switch-03 port=Gi1/0/05 mac=00:1A:2B:00:00:0E user=asmith vlan=10 result=ACCEPT
+2025-06-02T07:48:56 host=switch-02 port=Gi1/0/07 mac=00:1A:2B:00:00:16 user=asmith vlan=- result=REJECT reason=expired-account
+2025-06-02T07:50:20 host=switch-03 port=Gi1/0/05 mac=00:1A:2B:00:00:08 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T07:50:47 host=switch-02 port=Gi1/0/01 mac=00:1A:2B:00:00:06 user=guest vlan=20 result=ACCEPT
+2025-06-02T07:51:44 host=switch-03 port=Gi1/0/24 mac=00:1A:2B:00:00:08 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T07:52:02 host=switch-02 port=Gi1/0/02 mac=00:1A:2B:00:00:10 user=asmith vlan=10 result=ACCEPT
+2025-06-02T07:53:05 host=switch-02 port=Gi1/0/10 mac=00:1A:2B:00:00:08 user=asmith vlan=10 result=ACCEPT
+2025-06-02T07:54:01 host=switch-02 port=Gi1/0/09 mac=00:1A:2B:00:00:03 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T07:55:11 host=switch-02 port=Gi1/0/22 mac=00:1A:2B:00:00:12 user=mvermeulen vlan=- result=REJECT reason=expired-account
+2025-06-02T07:55:38 host=switch-03 port=Gi1/0/09 mac=00:1A:2B:00:00:02 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T07:56:23 host=switch-02 port=Gi1/0/20 mac=00:1A:2B:00:00:11 user=jdoe vlan=20 result=ACCEPT
+2025-06-02T07:56:52 host=switch-02 port=Gi1/0/02 mac=00:1A:2B:00:00:17 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T07:58:05 host=switch-03 port=Gi1/0/24 mac=00:1A:2B:00:00:18 user=guest vlan=30 result=ACCEPT
+2025-06-02T07:59:05 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:00:00:0B user=ljanssens vlan=20 result=ACCEPT
+2025-06-02T07:59:25 host=switch-03 port=Gi1/0/10 mac=00:1A:2B:00:00:11 user=mvermeulen vlan=30 result=ACCEPT
+2025-06-02T08:00:21 host=switch-03 port=Gi1/0/10 mac=00:1A:2B:00:00:12 user=asmith vlan=10 result=ACCEPT
+2025-06-02T08:01:14 host=switch-03 port=Gi1/0/24 mac=00:1A:2B:00:00:06 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T08:02:29 host=switch-01 port=Gi1/0/10 mac=00:1A:2B:00:00:0A user=asmith vlan=20 result=ACCEPT
+2025-06-02T08:03:51 host=switch-03 port=Gi1/0/11 mac=00:1A:2B:00:00:0F user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T08:05:01 host=switch-02 port=Gi1/0/24 mac=00:1A:2B:00:00:06 user=guest vlan=10 result=ACCEPT
+2025-06-02T08:06:30 host=switch-03 port=Gi1/0/20 mac=00:1A:2B:00:00:0B user=jdoe vlan=10 result=ACCEPT
+2025-06-02T08:07:03 host=switch-01 port=Gi1/0/05 mac=00:1A:2B:00:00:01 user=jdoe vlan=10 result=ACCEPT
+2025-06-02T08:08:26 host=switch-01 port=Gi1/0/15 mac=00:1A:2B:00:00:0E user=guest vlan=30 result=ACCEPT
+2025-06-02T08:09:20 host=switch-02 port=Gi1/0/13 mac=00:1A:2B:00:00:08 user=asmith vlan=30 result=ACCEPT
+2025-06-02T08:09:38 host=switch-02 port=Gi1/0/08 mac=00:1A:2B:00:00:06 user=tdewit vlan=30 result=ACCEPT
+2025-06-02T08:09:49 host=switch-03 port=Gi1/0/08 mac=00:1A:2B:00:00:04 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T08:11:19 host=switch-03 port=Gi1/0/18 mac=00:1A:2B:00:00:14 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T08:12:28 host=switch-02 port=Gi1/0/18 mac=00:1A:2B:00:00:0F user=asmith vlan=30 result=ACCEPT
+2025-06-02T08:13:30 host=switch-02 port=Gi1/0/08 mac=00:1A:2B:00:00:15 user=mvermeulen vlan=30 result=ACCEPT
+2025-06-02T08:14:05 host=switch-02 port=Gi1/0/15 mac=00:1A:2B:00:00:03 user=guest vlan=20 result=ACCEPT
+2025-06-02T08:14:52 host=switch-02 port=Gi1/0/18 mac=00:1A:2B:00:00:03 user=asmith vlan=10 result=ACCEPT
+2025-06-02T08:15:16 host=switch-03 port=Gi1/0/07 mac=00:1A:2B:00:00:03 user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T08:16:20 host=switch-02 port=Gi1/0/02 mac=00:1A:2B:00:00:07 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T08:17:39 host=switch-03 port=Gi1/0/01 mac=00:1A:2B:00:00:13 user=kpeeters vlan=- result=REJECT reason=expired-account
+2025-06-02T08:18:22 host=switch-02 port=Gi1/0/14 mac=00:1A:2B:00:00:12 user=guest vlan=30 result=ACCEPT
+2025-06-02T08:19:44 host=switch-01 port=Gi1/0/16 mac=00:1A:2B:00:00:08 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T08:20:38 host=switch-02 port=Gi1/0/22 mac=00:1A:2B:00:00:16 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T08:21:42 host=switch-01 port=Gi1/0/20 mac=00:1A:2B:00:00:12 user=jdoe vlan=20 result=ACCEPT
+2025-06-02T08:23:11 host=switch-01 port=Gi1/0/03 mac=00:1A:2B:00:00:15 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T08:23:39 host=switch-01 port=Gi1/0/09 mac=00:1A:2B:00:00:0D user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T08:24:27 host=switch-02 port=Gi1/0/09 mac=00:1A:2B:00:00:0E user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T08:25:41 host=switch-01 port=Gi1/0/12 mac=00:1A:2B:00:00:08 user=guest vlan=10 result=ACCEPT
+2025-06-02T08:27:09 host=switch-01 port=Gi1/0/01 mac=00:1A:2B:00:00:08 user=asmith vlan=10 result=ACCEPT
+2025-06-02T08:27:44 host=switch-01 port=Gi1/0/16 mac=00:1A:2B:00:00:16 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T08:28:48 host=switch-03 port=Gi1/0/09 mac=00:1A:2B:00:00:0C user=asmith vlan=30 result=ACCEPT
+2025-06-02T08:29:07 host=switch-01 port=Gi1/0/10 mac=00:1A:2B:00:00:04 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T08:30:00 host=switch-02 port=Gi1/0/07 mac=00:1A:2B:00:00:05 user=kpeeters vlan=- result=REJECT reason=bad-credentials
+2025-06-02T08:30:25 host=switch-03 port=Gi1/0/13 mac=00:1A:2B:00:00:0D user=guest vlan=- result=REJECT reason=bad-credentials
+2025-06-02T08:30:43 host=switch-03 port=Gi1/0/10 mac=00:1A:2B:00:00:16 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T08:32:00 host=switch-01 port=Gi1/0/12 mac=00:1A:2B:00:00:12 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T08:33:00 host=switch-02 port=Gi1/0/07 mac=00:1A:2B:00:00:05 user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T08:33:09 host=switch-03 port=Gi1/0/11 mac=00:1A:2B:00:00:01 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T08:33:27 host=switch-02 port=Gi1/0/12 mac=00:1A:2B:00:00:15 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T08:34:27 host=switch-01 port=Gi1/0/24 mac=00:1A:2B:00:00:11 user=guest vlan=20 result=ACCEPT
+2025-06-02T08:35:40 host=switch-02 port=Gi1/0/15 mac=00:1A:2B:00:00:0E user=tdewit vlan=30 result=ACCEPT
+2025-06-02T08:36:26 host=switch-01 port=Gi1/0/03 mac=00:1A:2B:00:00:09 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T08:37:43 host=switch-03 port=Gi1/0/22 mac=00:1A:2B:00:00:0D user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T08:38:29 host=switch-01 port=Gi1/0/16 mac=00:1A:2B:00:00:07 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T08:39:50 host=switch-03 port=Gi1/0/09 mac=00:1A:2B:00:00:12 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T08:40:05 host=switch-01 port=Gi1/0/24 mac=00:1A:2B:00:00:0E user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T08:41:10 host=switch-03 port=Gi1/0/23 mac=00:1A:2B:00:00:10 user=kpeeters vlan=- result=REJECT reason=bad-credentials
+2025-06-02T08:42:06 host=switch-03 port=Gi1/0/08 mac=00:1A:2B:00:00:0A user=guest vlan=30 result=ACCEPT
+2025-06-02T08:43:21 host=switch-03 port=Gi1/0/12 mac=00:1A:2B:00:00:0E user=guest vlan=30 result=ACCEPT
+2025-06-02T08:44:24 host=switch-02 port=Gi1/0/10 mac=00:1A:2B:00:00:09 user=asmith vlan=10 result=ACCEPT
+2025-06-02T08:45:09 host=switch-01 port=Gi1/0/24 mac=00:1A:2B:00:00:12 user=tdewit vlan=30 result=ACCEPT
+2025-06-02T08:45:41 host=switch-03 port=Gi1/0/16 mac=00:1A:2B:00:00:09 user=guest vlan=30 result=ACCEPT
+2025-06-02T08:46:53 host=switch-03 port=Gi1/0/10 mac=00:1A:2B:00:00:04 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T08:47:44 host=switch-01 port=Gi1/0/10 mac=00:1A:2B:00:00:01 user=guest vlan=30 result=ACCEPT
+2025-06-02T08:47:54 host=switch-01 port=Gi1/0/18 mac=00:1A:2B:00:00:0A user=guest vlan=10 result=ACCEPT
+2025-06-02T08:49:01 host=switch-01 port=Gi1/0/01 mac=00:1A:2B:00:00:13 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T08:49:49 host=switch-01 port=Gi1/0/02 mac=00:1A:2B:00:00:09 user=tdewit vlan=- result=REJECT reason=bad-credentials
+2025-06-02T08:50:45 host=switch-02 port=Gi1/0/03 mac=00:1A:2B:00:00:13 user=guest vlan=- result=REJECT reason=bad-credentials
+2025-06-02T08:52:02 host=switch-02 port=Gi1/0/03 mac=00:1A:2B:00:00:08 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T08:53:24 host=switch-03 port=Gi1/0/20 mac=00:1A:2B:00:00:08 user=tdewit vlan=30 result=ACCEPT
+2025-06-02T08:54:25 host=switch-02 port=Gi1/0/19 mac=00:1A:2B:00:00:0E user=mvermeulen vlan=30 result=ACCEPT
+2025-06-02T08:55:48 host=switch-03 port=Gi1/0/04 mac=00:1A:2B:00:00:07 user=guest vlan=10 result=ACCEPT
+2025-06-02T08:56:03 host=switch-01 port=Gi1/0/08 mac=00:1A:2B:00:00:06 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T08:57:00 host=switch-02 port=Gi1/0/23 mac=00:1A:2B:00:00:14 user=kpeeters vlan=- result=REJECT reason=expired-account
+2025-06-02T08:57:41 host=switch-03 port=Gi1/0/15 mac=00:1A:2B:00:00:03 user=guest vlan=10 result=ACCEPT
+2025-06-02T08:59:06 host=switch-03 port=Gi1/0/22 mac=00:1A:2B:00:00:07 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T09:00:03 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:09 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:17 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:21 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:24 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:31 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:33 host=switch-01 port=Gi1/0/09 mac=00:1A:2B:00:00:05 user=jdoe vlan=10 result=ACCEPT
+2025-06-02T09:00:34 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:40 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:44 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:51 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:00:59 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:01:06 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:01:14 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:01:17 host=switch-03 port=Gi1/0/24 mac=00:1A:2B:00:00:13 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T09:01:21 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:DE:AD:01 user=admin vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:02:00 host=switch-03 port=Gi1/0/13 mac=00:1A:2B:00:00:09 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T09:02:15 host=switch-03 port=Gi1/0/02 mac=00:1A:2B:00:00:0E user=guest vlan=20 result=ACCEPT
+2025-06-02T09:02:23 host=switch-01 port=Gi1/0/08 mac=00:1A:2B:00:00:16 user=tdewit vlan=30 result=ACCEPT
+2025-06-02T09:02:30 host=switch-03 port=Gi1/0/09 mac=00:1A:2B:00:00:13 user=jdoe vlan=10 result=ACCEPT
+2025-06-02T09:03:58 host=switch-02 port=Gi1/0/09 mac=00:1A:2B:00:00:06 user=ljanssens vlan=20 result=ACCEPT
+2025-06-02T09:05:05 host=switch-01 port=Gi1/0/16 mac=00:1A:2B:00:00:0C user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T09:05:23 host=switch-01 port=Gi1/0/11 mac=00:1A:2B:00:00:0E user=guest vlan=20 result=ACCEPT
+2025-06-02T09:06:19 host=switch-03 port=Gi1/0/02 mac=00:1A:2B:00:00:0F user=jdoe vlan=20 result=ACCEPT
+2025-06-02T09:06:38 host=switch-02 port=Gi1/0/17 mac=00:1A:2B:00:00:01 user=guest vlan=30 result=ACCEPT
+2025-06-02T09:06:49 host=switch-01 port=Gi1/0/17 mac=00:1A:2B:00:00:0C user=ljanssens vlan=20 result=ACCEPT
+2025-06-02T09:07:00 host=switch-01 port=Gi1/0/09 mac=00:1A:2B:00:00:12 user=asmith vlan=20 result=ACCEPT
+2025-06-02T09:08:07 host=switch-01 port=Gi1/0/01 mac=00:1A:2B:00:00:15 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T09:08:51 host=switch-03 port=Gi1/0/01 mac=00:1A:2B:00:00:12 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T09:09:10 host=switch-02 port=Gi1/0/04 mac=00:1A:2B:00:00:15 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T09:09:52 host=switch-03 port=Gi1/0/23 mac=00:1A:2B:00:00:09 user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T09:10:28 host=switch-02 port=Gi1/0/18 mac=00:1A:2B:00:00:05 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T09:11:38 host=switch-03 port=Gi1/0/05 mac=00:1A:2B:00:00:03 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T09:12:47 host=switch-02 port=Gi1/0/01 mac=00:1A:2B:00:00:0A user=guest vlan=20 result=ACCEPT
+2025-06-02T09:14:06 host=switch-03 port=Gi1/0/16 mac=00:1A:2B:00:00:05 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T09:14:53 host=switch-03 port=Gi1/0/18 mac=00:1A:2B:00:00:0D user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T09:15:28 host=switch-03 port=Gi1/0/13 mac=00:1A:2B:00:00:08 user=tdewit vlan=- result=REJECT reason=expired-account
+2025-06-02T09:16:21 host=switch-02 port=Gi1/0/22 mac=00:1A:2B:00:00:15 user=asmith vlan=20 result=ACCEPT
+2025-06-02T09:16:42 host=switch-03 port=Gi1/0/19 mac=00:1A:2B:00:00:0B user=tdewit vlan=10 result=ACCEPT
+2025-06-02T09:17:43 host=switch-01 port=Gi1/0/17 mac=00:1A:2B:00:00:0F user=jdoe vlan=30 result=ACCEPT
+2025-06-02T09:19:11 host=switch-01 port=Gi1/0/03 mac=00:1A:2B:00:00:10 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T09:20:06 host=switch-03 port=Gi1/0/03 mac=00:1A:2B:00:00:0B user=tdewit vlan=30 result=ACCEPT
+2025-06-02T09:20:59 host=switch-02 port=Gi1/0/21 mac=00:1A:2B:00:00:17 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T09:21:08 host=switch-03 port=Gi1/0/03 mac=00:1A:2B:00:00:08 user=guest vlan=30 result=ACCEPT
+2025-06-02T09:21:42 host=switch-03 port=Gi1/0/03 mac=00:1A:2B:00:00:0E user=jdoe vlan=30 result=ACCEPT
+2025-06-02T09:21:59 host=switch-02 port=Gi1/0/06 mac=00:1A:2B:00:00:17 user=mvermeulen vlan=- result=REJECT reason=bad-credentials
+2025-06-02T09:22:41 host=switch-02 port=Gi1/0/12 mac=00:1A:2B:00:00:0E user=asmith vlan=10 result=ACCEPT
+2025-06-02T09:23:58 host=switch-03 port=Gi1/0/06 mac=00:1A:2B:00:00:06 user=asmith vlan=10 result=ACCEPT
+2025-06-02T09:24:51 host=switch-03 port=Gi1/0/22 mac=00:1A:2B:00:00:08 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T09:25:55 host=switch-03 port=Gi1/0/09 mac=00:1A:2B:00:00:0F user=mvermeulen vlan=- result=REJECT reason=expired-account
+2025-06-02T09:26:36 host=switch-03 port=Gi1/0/18 mac=00:1A:2B:00:00:06 user=jdoe vlan=20 result=ACCEPT
+2025-06-02T09:27:56 host=switch-02 port=Gi1/0/21 mac=00:1A:2B:00:00:0E user=guest vlan=20 result=ACCEPT
+2025-06-02T09:28:39 host=switch-01 port=Gi1/0/13 mac=00:1A:2B:00:00:10 user=jdoe vlan=10 result=ACCEPT
+2025-06-02T09:29:29 host=switch-03 port=Gi1/0/10 mac=00:1A:2B:00:00:17 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T09:30:58 host=switch-02 port=Gi1/0/09 mac=00:1A:2B:00:00:01 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T09:31:09 host=switch-03 port=Gi1/0/24 mac=00:1A:2B:00:00:10 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T09:31:31 host=switch-03 port=Gi1/0/04 mac=00:1A:2B:00:00:15 user=guest vlan=10 result=ACCEPT
+2025-06-02T09:32:32 host=switch-01 port=Gi1/0/19 mac=00:1A:2B:00:00:0C user=guest vlan=- result=REJECT reason=expired-account
+2025-06-02T09:33:18 host=switch-03 port=Gi1/0/14 mac=00:1A:2B:00:00:06 user=asmith vlan=10 result=ACCEPT
+2025-06-02T09:34:09 host=switch-03 port=Gi1/0/17 mac=00:1A:2B:00:00:09 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T09:35:15 host=switch-02 port=Gi1/0/24 mac=00:1A:2B:00:00:0B user=tdewit vlan=10 result=ACCEPT
+2025-06-02T09:35:29 host=switch-01 port=Gi1/0/08 mac=00:1A:2B:00:00:16 user=guest vlan=30 result=ACCEPT
+2025-06-02T09:36:45 host=switch-02 port=Gi1/0/03 mac=00:1A:2B:00:00:0D user=jdoe vlan=20 result=ACCEPT
+2025-06-02T09:37:48 host=switch-02 port=Gi1/0/22 mac=00:1A:2B:00:00:18 user=guest vlan=20 result=ACCEPT
+2025-06-02T09:39:14 host=switch-02 port=Gi1/0/04 mac=00:1A:2B:00:00:16 user=asmith vlan=- result=REJECT reason=expired-account
+2025-06-02T09:40:37 host=switch-01 port=Gi1/0/21 mac=00:1A:2B:00:00:03 user=guest vlan=20 result=ACCEPT
+2025-06-02T09:41:20 host=switch-03 port=Gi1/0/14 mac=00:1A:2B:00:00:04 user=asmith vlan=10 result=ACCEPT
+2025-06-02T09:42:03 host=switch-02 port=Gi1/0/04 mac=00:1A:2B:00:00:04 user=asmith vlan=30 result=ACCEPT
+2025-06-02T09:43:06 host=switch-02 port=Gi1/0/22 mac=00:1A:2B:00:00:18 user=guest vlan=30 result=ACCEPT
+2025-06-02T09:43:30 host=switch-02 port=Gi1/0/21 mac=00:1A:2B:00:00:04 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T09:44:10 host=switch-01 port=Gi1/0/23 mac=00:1A:2B:00:00:0C user=asmith vlan=20 result=ACCEPT
+2025-06-02T09:44:45 host=switch-02 port=Gi1/0/04 mac=00:1A:2B:00:00:16 user=mvermeulen vlan=30 result=ACCEPT
+2025-06-02T09:46:12 host=switch-02 port=Gi1/0/02 mac=00:1A:2B:00:00:0D user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T09:47:15 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:00:00:07 user=guest vlan=30 result=ACCEPT
+2025-06-02T09:47:22 host=switch-01 port=Gi1/0/11 mac=00:1A:2B:00:00:08 user=asmith vlan=30 result=ACCEPT
+2025-06-02T09:48:37 host=switch-01 port=Gi1/0/19 mac=00:1A:2B:00:00:07 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T09:49:00 host=switch-03 port=Gi1/0/01 mac=00:1A:2B:00:00:09 user=tdewit vlan=10 result=ACCEPT
+2025-06-02T09:50:14 host=switch-02 port=Gi1/0/06 mac=00:1A:2B:00:00:04 user=guest vlan=10 result=ACCEPT
+2025-06-02T09:51:04 host=switch-01 port=Gi1/0/19 mac=00:1A:2B:00:00:0B user=jdoe vlan=10 result=ACCEPT
+2025-06-02T09:51:25 host=switch-03 port=Gi1/0/14 mac=00:1A:2B:00:00:11 user=jdoe vlan=- result=REJECT reason=expired-account
+2025-06-02T09:52:16 host=switch-03 port=Gi1/0/19 mac=00:1A:2B:00:00:04 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T09:53:39 host=switch-01 port=Gi1/0/24 mac=00:1A:2B:00:00:16 user=ljanssens vlan=20 result=ACCEPT
+2025-06-02T09:53:47 host=switch-01 port=Gi1/0/16 mac=00:1A:2B:00:00:0D user=kpeeters vlan=- result=REJECT reason=expired-account
+2025-06-02T09:54:01 host=switch-01 port=Gi1/0/11 mac=00:1A:2B:00:00:14 user=asmith vlan=10 result=ACCEPT
+2025-06-02T09:55:25 host=switch-03 port=Gi1/0/19 mac=00:1A:2B:00:00:12 user=guest vlan=20 result=ACCEPT
+2025-06-02T09:56:46 host=switch-03 port=Gi1/0/10 mac=00:1A:2B:00:00:0F user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T09:57:05 host=switch-03 port=Gi1/0/21 mac=00:1A:2B:00:00:12 user=guest vlan=10 result=ACCEPT
+2025-06-02T09:57:39 host=switch-02 port=Gi1/0/11 mac=00:1A:2B:00:00:0F user=kpeeters vlan=20 result=ACCEPT
+2025-06-02T09:58:24 host=switch-02 port=Gi1/0/11 mac=00:1A:2B:00:00:16 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T09:59:29 host=switch-01 port=Gi1/0/03 mac=00:1A:2B:00:00:03 user=jdoe vlan=- result=REJECT reason=expired-account
+2025-06-02T09:59:50 host=switch-03 port=Gi1/0/02 mac=00:1A:2B:00:00:13 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T10:00:10 host=switch-02 port=Gi1/0/12 mac=00:1A:2B:00:00:16 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T10:00:21 host=switch-02 port=Gi1/0/20 mac=00:1A:2B:00:00:0A user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T10:00:53 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:00:00:10 user=asmith vlan=10 result=ACCEPT
+2025-06-02T10:02:09 host=switch-02 port=Gi1/0/04 mac=00:1A:2B:00:00:09 user=ljanssens vlan=10 result=ACCEPT
+2025-06-02T10:03:25 host=switch-03 port=Gi1/0/20 mac=00:1A:2B:00:00:16 user=guest vlan=- result=REJECT reason=expired-account
+2025-06-02T10:03:33 host=switch-01 port=Gi1/0/09 mac=00:1A:2B:00:00:17 user=tdewit vlan=20 result=ACCEPT
+2025-06-02T10:04:22 host=switch-01 port=Gi1/0/06 mac=00:1A:2B:00:00:05 user=ljanssens vlan=30 result=ACCEPT
+2025-06-02T10:04:45 host=switch-03 port=Gi1/0/21 mac=00:1A:2B:00:00:01 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T10:05:38 host=switch-02 port=Gi1/0/15 mac=00:1A:2B:00:00:0B user=asmith vlan=20 result=ACCEPT
+2025-06-02T10:06:24 host=switch-03 port=Gi1/0/20 mac=00:1A:2B:00:00:03 user=jdoe vlan=10 result=ACCEPT
+2025-06-02T10:07:48 host=switch-01 port=Gi1/0/22 mac=00:1A:2B:00:00:03 user=mvermeulen vlan=20 result=ACCEPT
+2025-06-02T10:08:55 host=switch-03 port=Gi1/0/15 mac=00:1A:2B:00:00:0E user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T10:09:14 host=switch-02 port=Gi1/0/14 mac=00:1A:2B:00:00:04 user=mvermeulen vlan=30 result=ACCEPT
+2025-06-02T10:10:21 host=switch-03 port=Gi1/0/22 mac=00:1A:2B:00:00:0A user=jdoe vlan=10 result=ACCEPT
+2025-06-02T10:11:42 host=switch-01 port=Gi1/0/01 mac=00:1A:2B:00:00:07 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T10:12:19 host=switch-02 port=Gi1/0/11 mac=00:1A:2B:00:00:04 user=jdoe vlan=20 result=ACCEPT
+2025-06-02T10:12:46 host=switch-01 port=Gi1/0/13 mac=00:1A:2B:00:00:12 user=guest vlan=10 result=ACCEPT
+2025-06-02T10:14:16 host=switch-02 port=Gi1/0/03 mac=00:1A:2B:00:00:0D user=tdewit vlan=- result=REJECT reason=bad-credentials
+2025-06-02T10:15:19 host=switch-01 port=Gi1/0/11 mac=00:1A:2B:00:00:13 user=kpeeters vlan=30 result=ACCEPT
+2025-06-02T10:16:45 host=switch-02 port=Gi1/0/10 mac=00:1A:2B:00:00:04 user=kpeeters vlan=10 result=ACCEPT
+2025-06-02T10:17:11 host=switch-03 port=Gi1/0/15 mac=00:1A:2B:00:00:17 user=mvermeulen vlan=10 result=ACCEPT
+2025-06-02T10:17:29 host=switch-01 port=Gi1/0/14 mac=00:1A:2B:00:00:13 user=kpeeters vlan=- result=REJECT reason=expired-account
+2025-06-02T10:18:17 host=switch-01 port=Gi1/0/11 mac=00:1A:2B:00:00:06 user=jdoe vlan=30 result=ACCEPT
+2025-06-02T10:19:29 host=switch-03 port=Gi1/0/07 mac=00:1A:2B:00:00:0C user=mvermeulen vlan=30 result=ACCEPT
+2025-06-02T10:20:56 host=switch-01 port=Gi1/0/08 mac=00:1A:2B:00:00:04 user=asmith vlan=20 result=ACCEPT
