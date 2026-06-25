@@ -1,0 +1,7 @@
+Before starting the test, since I knew it required Github en Python I made sure there was a working connection to Github and Python was present
+For the making of the script I also used VS Code to write Python and Git Bash to connect to Github
+The main problem was that I took longer than expected to create the database correctly. this was not because I got stuck but because I had to learn the basics of the Python sqlite3 module, which I have not used before.
+The Python script scould make the database and parse the auth_log textfile and show the correct amount of accepts and rejects.
+I am confident I could make the remaining 3 parts of the Python script with enough time
+I have not looked for anything that looks suspicious in the logs yet
+Since this was a timed test, I forgot to regulary commit my changes. The commits in the repository are an indication of how i should have partitioned my changes.
